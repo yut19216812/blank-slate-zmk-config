@@ -142,9 +142,9 @@
         sym2_layer {
             label = "Sym2";
             bindings = <
-&trans,     &kp AT,  &kp HASH,  &kp DLLR,  &kp PRCNT,  &kp CARET,  &kp AMPS,  &kp STAR, &kp LPAR, &kp RPAR, &kp BSPC,
-&trans,     &none,   &kp LBRC,  &kp DQT,   &kp RBRC,   &none,      &kp MINUS, &kp EQUAL,   &kp LBRC, &kp RBRC, &kp PIPE, &kp GRAVE,
-&trans,     &none,   &none,     &none,     &none,      &none,      &kp UNDER,  &kp PLUS,  &kp LBKT, &kp RBKT, &kp BSLH, &kp TILDE,
+&trans   &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT  &kp CARET  &kp AMPS   &kp STAR  &kp LPAR &kp RPAR &kp BSPC
+&trans   &none     &kp LBRC  &kp DQT   &kp RBRC  &none      &kp MINUS  &kp EQUAL  &kp LBRC  &kp RBRC &kp PIPE &kp GRAVE
+&trans   &none     &none     &none     &none     &none      &kp UNDER  &kp PLUS   &kp LBKT  &kp RBKT &kp BSLH &kp TILDE
 #ifdef TBLE_DUAL_2U
 &trans  &trans       &trans     &kp N0              &trans                 &trans            &trans         &trans &trans &trans
 #elif defined(TBLE_MIT)
